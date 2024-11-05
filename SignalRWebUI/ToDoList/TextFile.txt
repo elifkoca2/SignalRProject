@@ -17,3 +17,6 @@
 --kasadaki tutar
 --bugünkü kazanç
 --masa sayısı 
+
+*********************************
+istatistiklerin consume edilmesi  
