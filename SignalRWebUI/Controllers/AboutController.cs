@@ -24,7 +24,7 @@ namespace SignalRWebUI.Controllers
 				var values = JsonConvert.DeserializeObject<List<ResultAboutDto>>(jsonData);
 				return View(values);
 			}
-			return View(new List<ResultAboutDto>());
+			return View();
 		}
 
 		[HttpGet]
