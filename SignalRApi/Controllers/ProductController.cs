@@ -35,7 +35,20 @@ namespace SignalRApi.Controllers
             return Ok(_productService.TProductCount());
         }
 
-		[HttpGet("ProductNameByMaxPrice")]
+
+        [HttpGet("TotalPriceByDrinkCategory")]
+        public IActionResult TotalPriceByDrinkCategory()
+        {
+            return Ok(_productService.TTotalPriceByDrinkCategory());
+        }
+
+        [HttpGet("TotalPriceBySaladCategory")]
+        public IActionResult TotalPriceBySaladCategory()
+        {
+            return Ok(_productService.TTotalPriceBySaladCategory());
+        }
+
+        [HttpGet("ProductNameByMaxPrice")]
 		public IActionResult ProductNameByMaxPrice()
 		{
 			return Ok(_productService.TProductNameByMaxPrice());
@@ -133,5 +146,12 @@ namespace SignalRApi.Controllers
             });
             return Ok("Ürün bilgisi güncellendi.");
         }
+
+        [HttpGet("ProductPriceBySteakBurger")]
+        public IActionResult ProductPriceBySteakBurger()
+        {
+            return Ok(_productService.TProductPriceBySteakBurger());
+        }
+
     }
 }

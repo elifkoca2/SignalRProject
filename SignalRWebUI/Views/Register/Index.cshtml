@@ -1,0 +1,77 @@
+﻿@model RegisterDto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SignalR Restoran Kayıt</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="~/colorlib-regform-32/css/nunito-font.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="~/colorlib-regform-32/css/style.css" />
+
+	<style>
+	button.btn-primary {
+	width: 100%;
+	padding: 12px;
+	background: linear-gradient(to right, #4facfe, #00c6ff);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	box-shadow: 0px 4px 10px rgba(0, 150, 255, 0.3);
+	}
+
+	button.btn-primary:hover {
+		background: linear-gradient(to right, #00c6ff, #4facfe);
+		box-shadow: 0px 6px 12px rgba(0, 150, 255, 0.5);
+		transform: translateY(-2px);
+	}
+
+	button.btn-primary:active {
+		transform: translateY(1px);
+		box-shadow: 0px 3px 8px rgba(0, 150, 255, 0.4);
+	}
+	</style>
+</head>
+
+
+
+<body class="form-v6">
+	<div class="page-content">
+		<div class="form-v6-content">
+			<div class="form-left">
+				<img src="~/colorlib-regform-32/images/hamburger.png" alt="form" style="width:484px; height:584px">
+			</div>
+			<form class="form-detail" method="post">
+				<h2>Yeni Kullanıcı Kaydı</h2>
+				<div class="form-row">
+					<input type="text" id="full-name" asp-for="Name" class="input-text" placeholder="Adınız " required>
+				</div>
+				<div class="form-row">
+					<input type="text" id="full-name" class="input-text" placeholder="Soyadınız " required asp-for="Surname">
+				</div>
+				<div class="form-row">
+					<input type="text" id="full-name" class="input-text" placeholder="Kullanıcı Adınız " required asp-for="Username">
+				</div>
+				<div class="form-row">
+					<input type="text" id="your-email" class="input-text" placeholder="Email Adresiniz" asp-for="Mail" required pattern="[^@@]+@@[^@@]+.[a-zA-Z]{2,6}">
+				</div>
+				<div class="form-row">
+					<input type="password" id="password" class="input-text" placeholder="Şifreniz" asp-for="Password" required>
+				</div>
+			
+			    <button class="btn btn-primary">Kayıt Ol</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
