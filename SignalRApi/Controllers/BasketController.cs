@@ -18,14 +18,12 @@ namespace SignalRApi.Controllers
         {
             _basketService = basketService;
         }
-
         [HttpGet]
-        public IActionResult GetBasketByMenuTableID(int id) 
+        public IActionResult GetBasketByMenuTableID(int id)
         {
-            var values =_basketService.TGetBasketByMenuTableNumber(id);
+            var values = _basketService.TGetBasketByMenuTableNumber(id);
             return Ok(values);
         }
-
         [HttpGet("BasketListByMenuTableWithProductName")]
         public IActionResult BasketListByMenuTableWithProductName(int id)
         {
@@ -46,24 +44,24 @@ namespace SignalRApi.Controllers
         [HttpPost]
         public IActionResult CreateBasket(CreateBasketDto createBasketDto)
         {
+            //Bahçe 01 --> 45
             using var context = new SignalRContext();
             _basketService.TAdd(new Basket()
             {
                 ProductID = createBasketDto.ProductID,
+                MenuTableID = createBasketDto.MenuTableID,
                 Count = 1,
-                MenuTableID = 4,
                 Price = context.Products.Where(x => x.ProductID == createBasketDto.ProductID).Select(y => y.Price).FirstOrDefault(),
-                TotalPrice = 0
+                TotalPrice = createBasketDto.TotalPrice,
             });
             return Ok();
         }
-
         [HttpDelete("{id}")]
-        public IActionResult DeleteBasket(int id) 
+        public IActionResult DeleteBasket(int id)
         {
             var value = _basketService.TGetByID(id);
             _basketService.TDelete(value);
-            return Ok("Sepetteki Seçilen Ürün silindi.");
+            return Ok("Sepetteki Seçilen Ürün Silindi");
         }
     }
 }

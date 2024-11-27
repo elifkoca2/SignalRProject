@@ -16,7 +16,7 @@
 
             $(document).ready(() => {
 
-                var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7186/SignalRHub").build();
+                var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7134/SignalRHub").build();
                 $("#connstatus").text(connection.state);
                 connection.start().then(() => {
                     $("#connstatus").text(connection.state);
@@ -46,7 +46,7 @@
                                                     <div class="row">
                                                         <div class="col-5">
                                                             <div class="icon-big text-center">
-                                                                <i class="la la-certificate"></i>
+                                                                            <i class="la la-hdd-o text-danger"></i>
                                                             </div>
                                                         </div>
                                                         <div class="col-7 d-flex align-items-center">
