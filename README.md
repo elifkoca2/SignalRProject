@@ -46,3 +46,27 @@ Projede aşağıdaki teknolojiler ve yaklaşımlar kullanılmıştır:
 ---
 ## **Projeye Ait Görseller**
 
+Apı
+
+
+https://github.com/user-attachments/assets/77f145c2-8dc5-4741-8295-d26794101142
+
+anasayfa
+
+
+https://github.com/user-attachments/assets/c7f2943a-785f-4a96-9ebe-8f00df9afb1e
+
+
+menü
+
+![Menü](https://github.com/user-attachments/assets/73139267-e04f-4146-b234-6870c3ff6f2c)
+
+sepet 
+
+![Sepet](https://github.com/user-attachments/assets/bd3efd10-211e-47f9-84c8-eb660f014001)
+
+Admin Paneli
+
+![AdminPaneli1](https://github.com/user-attachments/assets/24224b71-307b-4b8d-a525-6826548645a6) 
+
+
