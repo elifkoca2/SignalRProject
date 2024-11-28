@@ -68,6 +68,9 @@ https://github.com/user-attachments/assets/90c23873-7acd-4df0-a1fb-f906c6bcd57c
 ### **👨‍💼 Login Sayfası**
 ![Login](https://github.com/user-attachments/assets/57a30405-4626-4af7-9d14-6db58fb981fa)
 
+### **❌ 404 NotFound Sayfası**
+![not](https://github.com/user-attachments/assets/5e65cdce-cf16-4ee2-a3ee-c98ce7b25b05)
+
 ### **⚙️ Admin Paneli**
 ![Admin Paneli](https://github.com/user-attachments/assets/24224b71-307b-4b8d-a525-6826548645a6)  
 <br>
