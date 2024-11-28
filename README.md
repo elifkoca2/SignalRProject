@@ -1,31 +1,31 @@
-# **QR Kodlu Restoran Sipariş Yönetimi**  
-**AspNet Core 6.0 ile Geliştirilen Dinamik Sipariş Yönetimi Projesi**  
+# **🍽️ QR Kodlu Restoran Sipariş Yönetimi**  
+**🔧 AspNet Core 6.0 ile Geliştirilen Dinamik Sipariş Yönetimi Projesi**  
 
-Bu proje, restoranlar için dinamik QR kodlu bir sipariş yönetim sistemi geliştirmek amacıyla tasarlanmıştır. Admin ve kullanıcı panellerine sahip olan uygulama, anlık veri alışverişini destekleyen kapsamlı bir yapıya sahiptir. **SignalR kütüphanesi** kullanılarak, anlık bildirimler, mesajlaşma ve sipariş güncellemeleri gibi modern özellikler eklenmiştir.  
+Bu proje, restoranlar için dinamik QR kodlu bir sipariş yönetim sistemi geliştirmek amacıyla tasarlanmıştır. 🛠️ Admin ve kullanıcı panellerine sahip olan uygulama, anlık veri alışverişini destekleyen kapsamlı bir yapıya sahiptir. **SignalR kütüphanesi** kullanılarak, anlık bildirimler 📢, mesajlaşma 💬 ve sipariş güncellemeleri 🔄 gibi modern özellikler eklenmiştir.  
 
 ---
 
-## **Proje Özellikleri**  
+## **✨ Proje Özellikleri**  
 Bu projede aşağıdaki temel özellikler yer almaktadır:  
 
-- **Sipariş Yönetimi:** Kullanıcılar, QR kod tarayarak sipariş verebilir ve sipariş durumlarını anlık olarak takip edebilir.  
-- **Rezervasyon İşlemleri:** Kullanıcılar rezervasyon yapabilir ve e-posta bildirimleri alabilir.  
-- **Real-Time Uygulamalar:**  
-  - Anlık bildirimler  
-  - Anlık mesajlaşma  
-  - Anlık sepet güncellemeleri  
-- **Yönetici Paneli:** Sipariş ve rezervasyon işlemlerini yönetebilen kapsamlı bir admin paneli.  
-- **UI ve Backend:**  
-  - RESTful API yapısıyla geliştirilen güçlü bir backend.  
-  - Kullanıcı dostu bir frontend arayüzü.  
+- **🛒 Sipariş Yönetimi:** Kullanıcılar, QR kod tarayarak sipariş verebilir ve sipariş durumlarını anlık olarak takip edebilir.  
+- **📧 Rezervasyon İşlemleri:** Kullanıcılar rezervasyon yapabilir ve e-posta bildirimleri alabilir.  
+- **⏱️ Real-Time Uygulamalar:**  
+  - 📢 Anlık bildirimler  
+  - 💬 Anlık mesajlaşma  
+  - 🛍️ Anlık sepet güncellemeleri  
+- **⚙️ Yönetici Paneli:** Sipariş ve rezervasyon işlemlerini yönetebilen kapsamlı bir admin paneli.  
+- **🌐 UI ve Backend:**  
+  - 🛠️ RESTful API yapısıyla geliştirilen güçlü bir backend.  
+  - 🎨 Kullanıcı dostu bir frontend arayüzü.  
 
 ---
 
-## **Kullanılan Teknolojiler**  
+## **🔍 Kullanılan Teknolojiler**  
 
 Projede aşağıdaki teknolojiler ve yaklaşımlar kullanılmıştır:  
 
-- **Backend:**  
+- **🔧 Backend:**  
   - ASP.NET Core 6.0  
   - ASP.NET Core API  
   - SignalR  
@@ -34,39 +34,44 @@ Projede aşağıdaki teknolojiler ve yaklaşımlar kullanılmıştır:
   - N-Tier Architecture (Katmanlı Mimari)  
   - DTO ve Solid Prensiplerine Uygun Kodlama  
 
-- **Frontend:**  
+- **🎨 Frontend:**  
   - HTML, CSS, Bootstrap  
   - JavaScript ve Ajax  
   - Real-Time UI Geliştirme  
 
-- **Diğer:**  
+- **✉️ Diğer:**  
   - Mail Gönderme İşlemleri  
   - İlişkisel Veritabanı Yönetimi  
 
 ---
-## **Projeye Ait Görseller**
 
-Apı
+## **📸 Projeye Ait Video ve Görseller**
 
+### **🛠️ API**
+https://github.com/user-attachments/assets/ff4e004d-d714-4f7b-9926-96d0f4dc8a5f
 
-https://github.com/user-attachments/assets/77f145c2-8dc5-4741-8295-d26794101142
+### **🏠 Anasayfa**
+https://github.com/user-attachments/assets/90c23873-7acd-4df0-a1fb-f906c6bcd57c
 
-anasayfa
-
-
-https://github.com/user-attachments/assets/c7f2943a-785f-4a96-9ebe-8f00df9afb1e
-
-
-menü
-
+### **🍽️ Menü**
 ![Menü](https://github.com/user-attachments/assets/73139267-e04f-4146-b234-6870c3ff6f2c)
 
-sepet 
-
+### **🛍️ Sepet**
 ![Sepet](https://github.com/user-attachments/assets/bd3efd10-211e-47f9-84c8-eb660f014001)
 
-Admin Paneli
+### **🪑 Masa Durumları**
+![Masa Durumu](https://github.com/user-attachments/assets/dc99c78f-3fa4-4d6d-bc55-333205ac2ac1)
 
-![AdminPaneli1](https://github.com/user-attachments/assets/24224b71-307b-4b8d-a525-6826548645a6) 
+### **💬 Mesajlaşma**
+![Mesajlaşma](https://github.com/user-attachments/assets/c7138581-9b38-4e29-9dff-6a3f722ad685)
 
+### **⚙️ Admin Paneli**
+![Admin Paneli](https://github.com/user-attachments/assets/24224b71-307b-4b8d-a525-6826548645a6)  
+<br>
+![Admin Paneli](https://github.com/user-attachments/assets/df26a45b-741f-420e-bda9-7a1717e1089b)  
+<br>
+![Admin Paneli](https://github.com/user-attachments/assets/f7acbefc-0349-4322-b7d9-0eb9025ba105)  
+<br>
+![Admin Paneli](https://github.com/user-attachments/assets/0701f1a1-6f58-4e33-9fd0-0d8b7c192031)  
 
+---
